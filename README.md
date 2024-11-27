@@ -1,2 +1,2 @@
-# CHILL
+# PH-LLM
 LLM for Public Health
