@@ -6,17 +6,6 @@ Here we introduce Public Health Large Language Models for Infoveillance (PH-LLM)
 
 In this study, we developed a novel suite of LLMs called PH-LLM, which is available in 6 sizes for various computing settings. PH-LLM models were instruction-based finetuned on top of **Qwen 2.5**, using 593,100 instruction tuning pairs based on 30 infoveillance datasets with a total of 96 public health infoveillance tasks and six question-answering datasets. The PH-LLM models were then evaluated in 39 multilingual tasks which were not shown to the model during the instruction-tuning process. We evaluated the performance of PH-LLM against state-of-the-art LLMs, including ChatGPT-4o, Llama-3.1-70B-Instruct, Mistral-Large-Instruct-2407, and Qwen2.5-72B-Instruct.
 
-## Models
-
-| Model       | Link to the Models                                 | Link to the LoRA files                                 |
-| ----------- | -------------------------------------------------- | ------------------------------------------------------ |
-| PH-LLM-0.5B | [xinyuzhou/PH-LLM-0.5B](https://huggingface.co/xinyuzhou/PH-LLM-0.5B) | [xinyuzhou/PH-LLM-0.5B-LoRA](https://huggingface.co/xinyuzhou/PH-LLM-0.5B-LoRA) |
-| PH-LLM-1.5B | [xinyuzhou/PH-LLM-1.5B](https://huggingface.co/xinyuzhou/PH-LLM-1.5B) | [xinyuzhou/PH-LLM-1.5B-LoRA](https://huggingface.co/xinyuzhou/PH-LLM-1.5B-LoRA) |
-| PH-LLM-3B   | [xinyuzhou/PH-LLM-3B](https://huggingface.co/xinyuzhou/PH-LLM-3B)   | [xinyuzhou/PH-LLM-3B-LoRA](https://huggingface.co/xinyuzhou/PH-LLM-3B-LoRA)   |
-| PH-LLM-7B   | [xinyuzhou/PH-LLM-7B](https://huggingface.co/xinyuzhou/PH-LLM-7B)   | [xinyuzhou/PH-LLM-7B-LoRA](https://huggingface.co/xinyuzhou/PH-LLM-7B-LoRA)   |
-| PH-LLM-14B  | [xinyuzhou/PH-LLM-14B](https://huggingface.co/xinyuzhou/PH-LLM-14B)  | [xinyuzhou/PH-LLM-14B-LoRA](https://huggingface.co/xinyuzhou/PH-LLM-14B-LoRA)  |
-| PH-LLM-32B  | [xinyuzhou/PH-LLM-32B](https://huggingface.co/xinyuzhou/PH-LLM-32B)  | [xinyuzhou/PH-LLM-32B-LoRA](https://huggingface.co/xinyuzhou/PH-LLM-32B-LoRA)  |
-
 ## Instruction-tuning hyperparameters
 
 - **Training method**: QLoRA
